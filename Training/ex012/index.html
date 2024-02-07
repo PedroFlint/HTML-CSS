@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedado localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <h2>Tipo 1</h2>
+        <video src="midia/meu-video-1080p.ogv" width="560px" controls></video>
+    <h2>Tipo 2</h2>
+    <video width="560px" poster="imagens/thumb.png" controls>
+        <source src="midia/meu-video-720p.mp4" type="video/mp4">
+        <source src="midia/meu-video-720p.mkv" type="video/mkv">
+        <source src="midia/meu-video-720p.webm" type="video/webm">
+        <source src="midia/meu-video-720p.ogv" type="video/ogv">
+        <p>Seu navegador não possui compatibilidade de reprodução de vídeos. Para fazer download <a href="midia/meu-video-720p.mp4">Clique aqui</a>.</p>
+    </video>
+    <h1>Incorporando Vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=uHGC27dyl5MAQjeR" title="YouTube video player" frameborder="0" allow="accelerometer; allowautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1></h1>
+    <h1>Incorporando Vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/398852209?h=76a4ad8a79&autoplay=1&loop=1&color=ffffff" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
